@@ -1,5 +1,5 @@
 # Redshift_Control
-Redshift Control GTK panel
+Redshift Control GTK panel.
 Poniżej znajduje się gotowy skrypt w Pythonie, który tworzy proste okno GTK z suwakami do temperatury i jasności oraz polami do wpisania geolokalizacji. Na tej podstawie Redshift ustala porę dnia i płynnie zmienia ustawienia wyświetlania.
 
 ### Co robi ten skrypt?
@@ -22,8 +22,13 @@ sudo apt install redshift python3-gi gir1.2-gtk-3.0
 *   `gir1.2-gtk-3.0`: Definicje introspekcji dla GTK3, potrzebne dla `python3-gi`.
 
 
+Plik redshift_control.py wymaga uprawnień do uruchomienia, aby nadać te uprawnienia trzeba jeden raz użyc komendy
 
-Po uruchomieniu pojawi się okno z suwakami i polami, o które prosiłeś.
+```bash
+chmod +x redshift_control.py
+```
+Po uruchomieniu pojawi się okno z suwakami i polami.
+
 
 ### Jak to działa?
 
