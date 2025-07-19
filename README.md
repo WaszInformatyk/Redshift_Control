@@ -6,6 +6,9 @@ Poniżej znajduje się gotowy skrypt w Pythonie, który tworzy proste okno GTK z
 
 Skrypt nie zastępuje Redshifta, ale działa jako graficzny interfejs (frontend) do niego. Gdy przesuwasz suwaki lub wpisujesz dane i klikasz przycisk, skrypt w tle wywołuje odpowiednie komendy `redshift` z odpowiednimi parametrami.
 
+## Film instruktazowy na YouTube
+[Poradnik - zmiana kolorów i temperatury barwowej monitora używając Redshift](https://youtu.be/Bj1E04GjJsA)
+
 ---
 
 ### Krok 1: Wymagania
